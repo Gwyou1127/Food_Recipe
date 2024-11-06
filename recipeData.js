@@ -1,7 +1,7 @@
 const foods = [
     {
         name: "갈비찜",
-        image: "",
+        image: "https://i.namu.wiki/i/9xHkxjyIHj2yj9fFf7eeyK8YJE3Lu3gJpFEDpe8cNwuMl2hOm61RE7S6607J1KwdvvcejL2J2b2kdS6y_UL0JQ.webp",
         category: "한식",
         recipe: [
             "",
