@@ -9,7 +9,7 @@ const foods = [
     },
     {
         name: "갈비탕",
-        image: "",
+        image: "https://i.namu.wiki/i/1SZq01CgLzMK0fg0D4VbbdduF9wHRsUxeB6V0XcEMCl1h8gFYc-f2cENXW6J4GfvrnQ9KlirV11qwbFgtZttig.webp",
         category: "한식",
         recipe: [
             "",
