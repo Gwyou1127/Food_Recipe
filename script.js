@@ -104,5 +104,32 @@ modalSearchBtn.addEventListener('click', searchFood);
 
 function displayFood(food) {
     foodName.textContent = food.name;
-    recipe.innerHTML = food.recipe.map(step => `<ul>${step}</ul>`).join('');
+    
+    // 레시피 표시 HTML 구성
+    const recipeHTML = `
+        <div class="recipe-section">
+            <h3>🥘 재료</h3>
+            <ul>
+                ${food.recipe.ingredients ? 
+                    food.recipe.ingredients.map(item => `<li>${item}</li>`).join('') :
+                    '<li>등록된 재료가 없습니다.</li>'}
+            </ul>
+            
+            <h3>🔪 준비하기</h3>
+            <ul>
+                ${food.recipe.preparation ?
+                    food.recipe.preparation.map(step => `<li>${step}</li>`).join('') :
+                    '<li>등록된 준비 과정이 없습니다.</li>'}
+            </ul>
+            
+            <h3>👩‍🍳 조리하기</h3>
+            <ul>
+                ${food.recipe.cooking ?
+                    food.recipe.cooking.map((step, index) => `<li>${index + 1}. ${step}</li>`).join('') :
+                    '<li>등록된 조리 과정이 없습니다.</li>'}
+            </ul>
+        </div>  
+    `;
+    
+    recipe.innerHTML = recipeHTML;
 }

@@ -196,3 +196,49 @@ button:hover {
 #foodImages img:hover {
     transform: scale(1.1);
 }
+
+.recipe-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.recipe-section h3 {
+    color: #ff6666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'BMJUA', sans-serif;
+}
+
+.recipe-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.recipe-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.recipe-section li::before {
+    content: "•";
+    color: #ff6666;
+    position: absolute;
+    left: -15px;
+}
+
+.toggle {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.toggle:hover {
+    color: #0056b3;
+}
+
+.recipe-content {
+    display: none;
+}
