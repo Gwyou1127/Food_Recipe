@@ -229,16 +229,29 @@ button:hover {
     left: -15px;
 }
 
-.toggle {
-    cursor: pointer;
-    color: #007bff;
-    text-decoration: underline;
-}
-
-.toggle:hover {
-    color: #0056b3;
-}
-
 .recipe-content {
     display: none;
+}
+
+.back-button-container {
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background-color: #666;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.1s;
+}
+
+.back-button:hover {
+    background-color: #444;
 }

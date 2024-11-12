@@ -11,6 +11,7 @@ const foodImages = document.getElementById("foodImages");
 const modalSearchBtn = document.getElementById("modalSearchBtn");
 const searchInput = document.getElementById('searchInput');
 const errorMessage = document.getElementById('errorMessage');
+const backButton = document.getElementById('backButton');
 
 // 카테고리 버튼 생성 및 이벤트 처리
 function createCategoryButtons() {
@@ -104,6 +105,7 @@ modalSearchBtn.addEventListener('click', searchFood);
 
 function displayFood(food) {
     foodName.textContent = food.name;
+    backButton.style.display = 'block';
     
     // 레시피 표시 HTML 구성
     const recipeHTML = `
@@ -128,8 +130,18 @@ function displayFood(food) {
                     food.recipe.cooking.map((step, index) => `<li>${index + 1}. ${step}</li>`).join('') :
                     '<li>등록된 조리 과정이 없습니다.</li>'}
             </ul>
-        </div>  
+        </div>
     `;
     
     recipe.innerHTML = recipeHTML;
 }
+
+backButton.addEventListener('click', () => {
+    // 레시피 내용 초기화
+    foodName.textContent = '';
+    recipe.innerHTML = '';
+    backButton.style.display = 'none'; // 뒤로가기 버튼 숨기기
+});
+
+// 초기 상태에서는 뒤로가기 버튼 숨기기
+backButton.style.display = 'none';
