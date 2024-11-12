@@ -11,10 +11,20 @@ const foods = [
                 `양념장<br>간장 4큰술, 배즙 4큰술, 설탕 2큰술, 다진파 2큰술, 다진마늘 1큰술, 참기름 1큰술, 깨소금 1큰술, 후춧가루 약간`
             ],
             preparation: [  // 준비과정
-                "ㅋㄴㅇㅏㅏㅓㅀ",
+                "무와 당근은 4cm 폭으로 깍둑 썰어 모서리를 둥글게 다듬는다",
+                "표고버섯은 물에 불려 기둥을 뗀다",
+                "밤은 껍질을 벗기고, 대추는 씨를 뺀다",
+                "간장에 나머지 재료를 섞어서 찜 양념장을 만든다",
             ],
             cooking: [  // 조리과정
-                "ㅌ농",
+                "소갈비는 찬물에 담가 핏물을 뺀다",
+                "냄비에 물 5컵을 붓고 끓으면 갈비를 넣어 30분 정도 삶는다",
+                "삶은 갈비를 식혀 갈비에 붙은 질긴 힘줄이나 기름 덩어리를 떼어내고 2cm 간격의 칼집을 사선으로 넣는다",
+                "①의 소갈비 육수는 차게 식혀 기름을 걷는다",
+                "다듬은 무와 당근을 끓는 물에 10분 동안 삶아서 건져놓는다",
+                "냄비에 삶은 갈비를 담고 찜 양념장의 ⅔ 분량을 넣어 고루 버무린 다음 소갈비 육수 2컵을 붓고 중간 불에서 40분 동안 푹 끓인다",
+                "갈비가 무르게 익으면 삶은 무와 당근, 불린 표고버섯, 밤, 대추를 넣고 남은 양념장을 넣어 약한 불에서 15분 더 끓인다",
+                "갈비와 채소에 양념 맛이 고르게 들면 그릇에 담는다",
             ]
         }
     },
@@ -24,13 +34,40 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
-                "",
+                "소갈비(5cm 길이) 1㎏",
+                "대파 1대",
+                "마늘 6쪽(30g)",
+                "물 12컵(3L)",
+                "무 300g",
+                "국간장 4큰술",
+                "계란 1개",
+                "대파 1대",
+                "소금 약간",
+
+                "삶은 갈비 양념",
+                "국간장 3큰술",
+                "다진 파 4큰술",
+                "다진 마늘 1큰술",
+                "참기름 1큰술",
+                "후춧가루 약간",
             ],
             preparation: [
-                "",
+                "소갈비는 찬물에 담가 핏물을 뺀다",
+                "무는 4cm 크기로 토막 썬다",
+                "계란은 깨뜨려서 흰자와 노른자로 나누어 소금을 넣고 풀어놓는다",
+                "풀어놓은 계란을 약한 불에서 얇게 황백 지단으로 부치고 5cm 길이로 가늘게 채 썬다",
+                "대파는 어슷하게 썬다",
+                "국간장에 나머지 재료를 섞어서 삶은 갈비 양념장을 만든다",
+
             ],
             cooking: [
-                "",
+                "냄비에 물 12컵을 붓고 소갈비, 대파, 통마늘을 넣어 중간 불에서 30분 정도 끓이며 거품과 기름을 걷어낸다",
+                "무는 끓는 물에 넣고 중간 불에서 30분 동안 삶아 건진다",
+                "갈비가 무르게 익으면 식혀서 갈비에 붙은 질긴 힘줄이나 기름 덩어리를 떼어낸 뒤 1cm 간격으로 칼집을 어슷하게 넣어서 삶은 갈비 양념장에 버무린다",
+                "무는 4×2.5×2.5cm 크기로 썬다",
+                "기름을 걷어낸 국물에 양념한 갈비와 무를 넣고 약한 불에서 30분 동안 끓인 뒤 국간장, 다진 마늘, 어슷 썬 대파를 넣고 5분 동안 더 끓여서 소금으로 간을 맞춘다",
+                "그릇에 갈비탕을 담고 채 썬 지단을 얹어서 낸다",
+
             ]
         }
     },
@@ -56,13 +93,46 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
-                "",
+                "갈치 8토막(손질 후 450g)",
+                "소금 1큰술",
+                "감자 3개(150g)",
+                "새송이버섯 180g",
+                "대파 1대",
+                "풋고추 1개",
+                "홍고추 1개",
+                "물 1컵",
+
+                "조림 양념장",
+                "고추장 1큰술",
+                "고춧가루 2큰술",
+                "물 2큰술",
+                "간장 2큰술",
+                "다진 파 2큰술",
+                "다진 마늘 1큰술",
+                "다진 생강 ½작은술",
+                "설탕 1큰술",
+                "참기름 1큰술",
+                "깨소금 1큰술",
+                "청주 2큰술",
+                "후춧가루 약간",
+
             ],
             preparation: [
-                "",
+                "갈치는 싱싱한 것으로 골라 머리, 꼬리, 지느러미를 떼고 비늘을 벗겨낸다",
+                "배를 갈라 내장을 꺼내고 깨끗이 씻은 다음 5cm로 토막 내어 소금을 뿌려둔다",
+                "조림용으로 손질된 생선을 구입하면 편리하다",
+                "감자와 새송이버섯은 반으로 갈라 0.6cm 두께로 썬다",
+                "대파, 풋고추, 홍고추는 어슷 썬다",
+                "고추장, 고춧가루에 물 2큰술을 넣고 나머지 재료를 섞어 조림 양념장을 만든다",
+
             ],
             cooking: [
-                "",
+                "냄비에 감자와 새송이버섯을 담고 조림 양념장을 반 정도 뿌린다",
+                "소금을 뿌려둔 갈치의 물기를 걷어 위에 올리고 나머지 양념장을 고루 얹는다",
+                "냄비 가장자리로 물 1컵을 넣고 불에 올려 끓인다",
+                "끓어오르면 중간 불로 줄이고 대파와 풋고추, 홍고추를 넣는다",
+                "양념장을 끼얹어 간이 고루 들도록 하면서, 국물이 거의 없어질 때까지 20분 동안 뚜껑을 열고 조린다",
+
             ]
         }
     },
@@ -88,13 +158,31 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
-                "",
+                "감자 4개(600g)",
+                "애호박 90g",
+                "감자 전분 1큰술",
+                "물 2컵(500ml)",
+                "소금 ½작은술",
+                "식용유",
+
+                "초간장",
+                "간장 2큰술",
+                "물 1큰술",
+                "식초 1큰술",
+                "고춧가루 ½큰술",
+                "풋고추 1개",
+
             ],
             preparation: [
-                "",
+                "감자는 껍질을 벗기고 강판(블렌더)에 곱게 간다",
+                "애호박은 씻어서 채 썬다",
+                "간장과 물, 식초, 고춧가루를 섞고 풋고추를 잘게 다져 넣어 양념장을 만든다",
             ],
             cooking: [
-                "",
+                "감자 간 것에 애호박을 섞고 물과 소금, 감자 전분을 넣어 반죽한다",
+                "뜨겁게 달군 팬에 식용유를 두르고 반죽을 한 국자씩 떠서 얇고 동그랗게 편다",
+                "전이 익어 투명해지면 뒤집어서 노릇하게 지진다",
+                "접시에 담고 양념장을 곁들여 낸다",
             ]
         }
     },
@@ -123,10 +211,16 @@ const foods = [
                 "",
             ],
             preparation: [
-                "",
+                "감자는 껍질을 벗기고 2.5cm 폭의 주사위 모양으로 썰어 물에 담가둔다",  
+                "풋고추는 1cm 두께로 동글게 썰고 물에 헹구어 씨를 뺀다",
+
             ],
             cooking: [
-                "",
+                "감자는 체에 밭쳐 물을 빼고 키친타월로 물기를 없앤다",  
+                "뜨겁게 달군 냄비에 식용유 2큰술을 두르고 감자를 넣어 5분 동안 볶는다",  
+                "간장, 설탕을 넣고 잠시 볶다가 물 ½컵을 넣고 뚜껑을 덮어 10분 동안 중간 불에서 조린다",  
+                "썰어놓은 풋고추를 넣고 통깨와 참기름을 넣은 후 불을 끈다",
+
             ]
         }
     },
@@ -139,10 +233,18 @@ const foods = [
                 "",
             ],
             preparation: [
-                "",
+                "멥쌀과 찹쌀은 깨끗하게 씻어서 20분 정도 불린 뒤 체에 밭쳐 물기를 뺀다",  
+                "곤드레나물은 미지근한 물에 1시간쯤 불렸다가 물 3컵을 넣고 약한 불에서 30분 정도 푹 삶은 뒤 물기를 꼭 짠다",  
+                "삶은 곤드레나물에 국간장과 들기름을 넣고 무친다",  
+                "국간장에 나머지 재료를 섞어서 양념장을 만든다",
+
             ],
             cooking: [
-                "",
+                "뜨겁게 달군 냄비에 들기름을 두르고 양념한 곤드레나물을 넣어 중간 불에서 10분 정도 볶다가 불린 쌀을 넣고 같이 볶는다",  
+                "물 3컵을 붓고 끓어오르면 중간 불에서 밥물이 자작해질 때까지 끓인다",  
+                "밥물이 잦아들면 약한 불로 줄여서 10분 정도 뜸을 들인다",  
+                "밥을 고루 섞어 그릇에 담고 양념장을 곁들여 낸다",
+
             ]
         }
     },
@@ -155,10 +257,21 @@ const foods = [
                 "",
             ],
             preparation: [
-                "",
+                "곱창은 겉의 기름을 가위로 제거하고 손으로 얇은 막을 벗긴 다음 젓가락을 이용해 뒤집는다",  
+                "뒤집은 곱창에 밀가루와 굵은소금을 넣고 바락바락 주물러서 찬물에 여러 번 헹군다",  
+                "곱창에 소금, 후춧가루, 청주를 골고루 뿌린 후 냉장실에 30분 동안 재워둔다",  
+                "감자는 0.6cm 두께로 썰어 물에 헹군다",  
+                "부추는 4cm 길이로 썰고, 양파는 얇게 채 썬다",  
+                "고춧가루에 나머지 재료를 섞어서 부추생채 양념을 만든다",  
+                "부추와 양파를 섞어 부추생채 양념을 넣고 버무린다",
+
             ],
             cooking: [
-                "",
+                "뜨겁게 달군 팬에 식용유를 두르고 곱창을 노릇하게 굽는다",  
+                "감자와 마늘도 굽는다",  
+                "구운 곱창을 접시에 담고 부추생채, 구운 감자와 마늘을 함께 담는다",  
+                "소금장을 곁들여 찍어 먹는다",
+
             ]
         }
     },
@@ -2422,8 +2535,1275 @@ const foods = [
             ]
         }
     },
+    // 일식
+    {
+        name: "오니기리",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "돈부리",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "카마메시",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "스시",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "오차즈케",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "카테메싵",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "우동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "야끼우동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "소바",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "야끼소바",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "라멘",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "오코노미야끼",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "타코야끼",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "돈돈야끼",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "덴뿌라",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "샤브샤브",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "스키야끼",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "부타나베",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "모츠나베",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "사시미",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "타다끼",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "야키토리",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "치킨난반",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "가라아게",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "니쿠자가",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "도테야키",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "라후테",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "오히타시",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "낫또",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "우메보시",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "쿠사야",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "가츠동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "규동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "오야코동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "텐동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "카레동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "사케동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "아나고동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "키츠네동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "다케동",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "미소시루",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "다이후쿠",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "모찌",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    // 중식
+    {
+        name: "양장피",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "마파두부",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "팔진초면",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "청경채소고기볶음",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "연복풍",
+        image: "",
+        category: "중식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "중식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "중식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "회과육",
+        image: "",
+        category: "중식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "유산슬",
+        image: "",
+        category: "중식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추잡채",
+        image: "",
+        category: "일식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    
 
-    // 더 많은 음식들을 각 카테고리별로 추가할 수 있습니다
+    
 ];
 
 export default foods;
