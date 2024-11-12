@@ -260,23 +260,27 @@ const foods = [
     },
     {
         name: "간장",
-        image: "",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Soy_sauce_2.jpg/640px-Soy_sauce_2.jpg",
         category: "한식",
         recipe: {
             ingredients: [
-                "",
+                "메주 1말(콩 8㎏, 보통 크기 3덩이), 굵은소금 6~7되(480~560g), 물 40컵(10L), 숯·마른 고추·대추 약간씩",
             ],
             preparation: [
-                "",
+                "잘 띄운 메주를 솔로 깨끗이 씻어 햇볕에 말린다.",
+                "장 담그기 하루 전날 항아리 위에 소금 소쿠리를 얹고 분량의 물을 부어서 가라앉힌다. 염도는 18~20보메가 적당한데, 달걀을 띄워서 반쯤 잠기는 정도다.",
             ],
             cooking: [
-                "",
+                "항아리에 메주를 넣고 소금물을 붓는다.",
+                "항아리에 숯, 마른 고추, 대추를 3∼4개씩 띄운다.",
+                "40~60일 동안 숙성시켜서 메주와 날간장을 분리한다..",
+                "날간장은 냄비에 담아 약불에서 끓여 간장으로 쓰고, 메주는 으깨고 소금을 섞어 된장을 담근다.",
             ]
         }
     },
     {
         name: "간장게장",
-        image: "",
+        image: "https://cdn.oasis.co.kr:48581/product/52477/thumb/thumb_52477680446b5-5a05-4450-b778-1ae2c979ee38.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -292,7 +296,7 @@ const foods = [
     },
     {
         name: "겉절이",
-        image: "",
+        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/03/29/ac0be444d09a260d6fc06001eac0adb21.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -308,7 +312,7 @@ const foods = [
     },
     {
         name: "계란말이",
-        image: "",
+        image: "https://i.namu.wiki/i/GY1CyS2UkzjpGyPNPrJbX_eZps0Ps9Ly6M64KxQRWNqK9kZ5QL-v2TbOfY5gOHQi3QsWxpm3Ja-PW_YO9OvmpQ.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -324,7 +328,7 @@ const foods = [
     },
     {
         name: "계란찜",
-        image: "",
+        image: "https://i.namu.wiki/i/Ve_R4NNlzKMCcUDyUm96IQQwRMrg1RDRVVfak3F_ZPybsGgf6yjal8R0HGlt_T4VM_NGXL2h5it9vlCP8L_HUQ.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -340,7 +344,7 @@ const foods = [
     },
     {
         name: "김밥",
-        image: "",
+        image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gimbap_%28pixabay%29.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -356,7 +360,7 @@ const foods = [
     },
     {
         name: "김부각",
-        image: "",
+        image: "https://oasisprodproduct.edge.naverncp.com/56792/detail/0_876198e2-bb16-47dc-969e-532e84791cc1.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -372,7 +376,7 @@ const foods = [
     },
     {
         name: "김구이",
-        image: "",
+        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/03/14/cfdf8763c961603d5d33a3fada2c4df71.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -388,7 +392,7 @@ const foods = [
     },
     {
         name: "깍두기",
-        image: "",
+        image: "https://i.ytimg.com/vi/OPo_j3jDMeM/maxresdefault.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -404,7 +408,7 @@ const foods = [
     },
     {
         name: "깻잎장아찌",
-        image: "",
+        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/04/13/f51cef0c04d2e44872bf41aef97eb2741.jpg",
         category: "한식",
         recipe: {
             ingredients: [
