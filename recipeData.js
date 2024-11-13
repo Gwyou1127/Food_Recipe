@@ -1022,7 +1022,7 @@ const foods = [
     },
     {
         name: "더덕구이",
-        image: "",
+        image: "./img/ㄷ/더덕구이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1065,7 +1065,7 @@ const foods = [
     },
     {
         name: "도라지나물",
-        image: "",
+        image: "./img/ㄷ/도라지나물.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1084,7 +1084,7 @@ const foods = [
     },
     {
         name: "도라지무침",
-        image: "",
+        image: "./img/ㄷ/도라지무침.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1103,7 +1103,7 @@ const foods = [
     },
     {
         name: "도토리묵",
-        image: "",
+        image: "./img/ㄷ/도토리묵.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1122,7 +1122,7 @@ const foods = [
     },
     {
         name: "돌솥비빔밥",
-        image: "",
+        image: "./img/ㄷ/돌솥비빔밥.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1141,7 +1141,7 @@ const foods = [
     },
     {
         name: "돼지갈비구이",
-        image: "",
+        image: "./img/ㄷ/돼지갈비구이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1160,7 +1160,7 @@ const foods = [
     },
     {
         name: "돼지국밥",
-        image: "",
+        image: "./img/ㄷ/돼지국밥.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1179,7 +1179,7 @@ const foods = [
     },
     {
         name: "된장",
-        image: "",
+        image: "./img/ㄷ/된장.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1198,7 +1198,7 @@ const foods = [
     },
     {
         name: "된장찌개",
-        image: "",
+        image: "./img/ㄷ/된장찌개.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1217,7 +1217,7 @@ const foods = [
     },
     {
         name: "두부김치",
-        image: "",
+        image: "./img/ㄷ/두부김치.png",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1236,7 +1236,7 @@ const foods = [
     },
     {
         name: "두부조림",
-        image: "",
+        image: "./img/ㄷ/두부조림.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1255,7 +1255,7 @@ const foods = [
     },
     {
         name: "닭갈비",
-        image: "",
+        image: "./img/ㄷ/닭갈비.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1274,7 +1274,7 @@ const foods = [
     },
     {
         name: "닭백숙",
-        image: "",
+        image: "./img/ㄷ/닭백숙.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1293,7 +1293,7 @@ const foods = [
     },
     {
         name: "닭볶음탕",
-        image: "",
+        image: "./img/ㄷ/닭볶음탕,jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1312,7 +1312,7 @@ const foods = [
     },
     {
         name: "닭죽",
-        image: "",
+        image: "./img/ㄷ/닭죽.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1331,7 +1331,7 @@ const foods = [
     },
     {
         name: "동치미",
-        image: "",
+        image: "./img/ㄷ/동치미.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1350,7 +1350,7 @@ const foods = [
     },
     {
         name: "동태찌개",
-        image: "",
+        image: "./img/ㄷ/동태찌개.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1369,7 +1369,7 @@ const foods = [
     },
     {
         name: "떡국",
-        image: "",
+        image: "./img/ㄷ/떡국.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1388,7 +1388,7 @@ const foods = [
     },
     {
         name: "떡볶이",
-        image: "",
+        image: "./img/ㄷ/떡볶이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1407,7 +1407,7 @@ const foods = [
     },
     {
         name: "떡만둣국",
-        image: "",
+        image: "./img/ㄷ/떡만둣국.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1426,7 +1426,7 @@ const foods = [
     },
     {
         name: "뚝배기불고기",
-        image: "",
+        image: "./img/ㄷ/뚝배기불고기.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1445,7 +1445,7 @@ const foods = [
     },
     {
         name: "라면",
-        image: "",
+        image: "./img/ㄹ/라면.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1464,7 +1464,7 @@ const foods = [
     },
     {
         name: "마늘장아찌",
-        image: "",
+        image: "./img/ㅁ/마늘장아찌.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1483,7 +1483,7 @@ const foods = [
     },
     {
         name: "마늘쫑",
-        image: "",
+        image: "./img/ㅁ/마늘쫑.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1502,7 +1502,7 @@ const foods = [
     },
     {
         name: "만두",
-        image: "",
+        image: "./img/ㅁ/만두.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1521,7 +1521,7 @@ const foods = [
     },
     {
         name: "만두전골",
-        image: "",
+        image: "./img/ㅁ/만두전골.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1540,7 +1540,7 @@ const foods = [
     },
     {
         name: "만둣국",
-        image: "",
+        image: "./img/ㅁ/만둣국.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1559,7 +1559,7 @@ const foods = [
     },
     {
         name: "매운탕",
-        image: "",
+        image: "./img/ㅁ/매운탕.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1578,7 +1578,7 @@ const foods = [
     },
     {
         name: "막국수",
-        image: "",
+        image: "./img/ㅁ/막국수.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1597,7 +1597,7 @@ const foods = [
     },
     {
         name: "메밀전병",
-        image: "",
+        image: "./img/ㅁ/메밀전병.png",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1616,7 +1616,7 @@ const foods = [
     },
     {
         name: "묵은지찜",
-        image: "",
+        image: "./img/ㅁ/묵은지찜.jpeg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1636,7 +1636,7 @@ const foods = [
     },
     {
         name: "미역국",
-        image: "",
+        image: "./img/ㅁ/미역국.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1655,7 +1655,7 @@ const foods = [
     },
     {
         name: "물냉면",
-        image: "",
+        image: "./img/ㅁ/물냉면.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1674,7 +1674,7 @@ const foods = [
     },
     {
         name: "무생채",
-        image: "",
+        image: "./img/ㅁ/무생채.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1693,7 +1693,7 @@ const foods = [
     },
     {
         name: "바지락칼국수",
-        image: "",
+        image: "./img/바지락칼국수.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1712,7 +1712,7 @@ const foods = [
     },
     {
         name: "배추김치",
-        image: "",
+        image: "./img/ㅂ/배추김치.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1731,7 +1731,7 @@ const foods = [
     },
     {
         name: "백김치",
-        image: "",
+        image: "./img/ㅂ/백김치.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1750,7 +1750,7 @@ const foods = [
     },
     {
         name: "병어고추장구이",
-        image: "",
+        image: "./img/ㅂ/병어고추장구이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1769,7 +1769,7 @@ const foods = [
     },
     {
         name: "보리밥",
-        image: "",
+        image: "./img/ㅂ/보리밥.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1788,7 +1788,7 @@ const foods = [
     },
     {
         name: "보쌈",
-        image: "",
+        image: "./img/ㅂ/보쌈.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1807,7 +1807,7 @@ const foods = [
     },
     {
         name: "부대찌개",
-        image: "",
+        image: "./img/ㅂ/부대찌개.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1826,7 +1826,7 @@ const foods = [
     },
     {
         name: "북엇국",
-        image: "",
+        image: "./img/ㅂ/북엇국.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1845,7 +1845,7 @@ const foods = [
     },
     {
         name: "불고기",
-        image: "",
+        image: "./img/ㅂ/불고기.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1864,7 +1864,7 @@ const foods = [
     },
     {
         name: "불고기덮밥",
-        image: "",
+        image: "./img/ㅂ/불고기덮밥.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1883,7 +1883,7 @@ const foods = [
     },
     {
         name: "버섯전",
-        image: "",
+        image: "./img/ㅂ/버섯전.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1902,7 +1902,7 @@ const foods = [
     },
     {
         name: "버섯전골",
-        image: "",
+        image: "./img/ㅂ/버섯전골.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1921,7 +1921,7 @@ const foods = [
     },
     {
         name: "비빔냉면",
-        image: "",
+        image: "./img/ㅂ/비빔냉면.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -1940,7 +1940,7 @@ const foods = [
     },
     {
         name: "비빔국수",
-        image: "",
+        image: "./img/ㅂ/비빔국수.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -2966,25 +2966,6 @@ const foods = [
     },
     {
         name: "편육",
-        image: "",
-        category: "한식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            sauceIngredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "오곡밥",
         image: "",
         category: "한식",
         recipe: {
