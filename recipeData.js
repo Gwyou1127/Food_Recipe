@@ -2786,25 +2786,6 @@ const foods = [
         }
     },
     {
-        name: "오곡밥",
-        image: "",
-        category: "한식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            sauceIngredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
         name: "팥죽",
         image: "",
         category: "한식",
