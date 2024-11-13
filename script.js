@@ -101,6 +101,33 @@ function searchFood() {
     }
 }
 
+searchInput.addEventListener('input', showSearchSuggestions);
+
+function showSearchSuggestions() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    const suggestions = foods.filter(food => food.name.toLowerCase().includes(searchTerm));
+
+    foodImages.innerHTML = '';  // 기존 결과 지우기
+    suggestions.forEach(food => {
+        const img = document.createElement('img');
+        img.src = food.image;
+        img.alt = food.name;
+        
+        img.addEventListener('click', () => {
+            displayFood(food);
+            closeModal(recipeModal);
+        });
+
+        foodImages.appendChild(img);
+    });
+
+    if (suggestions.length === 0) {
+        errorMessage.textContent = '음식을 찾을 수 없습니다.';
+    } else {
+        errorMessage.textContent = '';
+    }
+}
+
 modalSearchBtn.addEventListener('click', searchFood);
 
 function displayFood(food) {
