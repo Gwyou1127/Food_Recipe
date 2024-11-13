@@ -1,7 +1,7 @@
 const foods = [
     {
         name: "갈비찜",
-        image: "https://i.namu.wiki/i/rmJ3Cvcty3e2VelwK8Tm5tjut3BcS-vrr_RzypjVWbAY7yiVh7XsIgj7nkstJMBcrISrWsVte4arnvHY53sjfjDsTUaioEh5BHqwd1JklTZD42q1pR6u8C1uXtyBWN9g413ffvF0euYCV0A3xeYoqw.webp",
+        image: "./img/ㄱ/갈비찜.webp",
         category: "한식",
         recipe: {
             ingredients: [  // 재료준비
@@ -14,8 +14,16 @@ const foods = [
                 "밤 5개",
                 "대추 3개",
                 "식용유·소금 약간씩",
-
-                "찜 양념장<br>간장 4큰술, 배즙 4큰술, 설탕 2큰술, 다진파 2큰술, 다진마늘 1큰술, 참기름 1큰술, 깨소금 1큰술, 후춧가루 약간"
+            ],
+            sauceIngredients: [
+                "간장 4큰술",
+                "배즙 4큰술",
+                "설탕 2큰술",
+                "다진파 2큰술",
+                "다진마늘 1큰술",
+                "참기름 1큰술",
+                "깨소금 1큰술",
+                "후춧가루 약간"
             ],
             preparation: [  // 준비과정
                 "무와 당근은 4cm 폭으로 깍둑 썰어 모서리를 둥글게 다듬는다",
@@ -37,7 +45,7 @@ const foods = [
     },
     {
         name: "갈비탕",
-        image: "",
+        image: "./img/ㄱ/갈비탕.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -50,7 +58,8 @@ const foods = [
                 "계란 1개",
                 "대파 1대",
                 "소금 약간",
-
+            ],
+            sauceIngredients: [
                 "삶은 갈비 양념",
                 "국간장 3큰술",
                 "다진 파 4큰술",
@@ -58,6 +67,7 @@ const foods = [
                 "참기름 1큰술",
                 "후춧가루 약간",
             ],
+
             preparation: [
                 "소갈비는 찬물에 담가 핏물을 뺀다",
                 "무는 4cm 크기로 토막 썬다",
@@ -80,10 +90,13 @@ const foods = [
     },
     {
         name: "갈치구이",
-        image: "",
+        image: "./img/ㄱ/갈치구이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -96,7 +109,7 @@ const foods = [
     },
     {
         name: "갈치조림",
-        image: "",
+        image: "./img/ㄱ/갈치조림.jpg",
         category: "한식",
         recipe: {
             ingredients: [
@@ -108,7 +121,8 @@ const foods = [
                 "풋고추 1개",
                 "홍고추 1개",
                 "물 1컵",
-
+            ],
+            sauceIngredients: [
                 "조림 양념장",
                 "고추장 1큰술",
                 "고춧가루 2큰술",
@@ -122,7 +136,6 @@ const foods = [
                 "깨소금 1큰술",
                 "청주 2큰술",
                 "후춧가루 약간",
-
             ],
             preparation: [
                 "갈치는 싱싱한 것으로 골라 머리, 꼬리, 지느러미를 떼고 비늘을 벗겨낸다",
@@ -145,10 +158,13 @@ const foods = [
     },
     {
         name: "갓김치",
-        image: "",
+        image: "./img/ㄱ/갓김치.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -161,7 +177,7 @@ const foods = [
     },
     {
         name: "감자전",
-        image: "",
+        image: "./img/ㄱ/감자전.webp",
         category: "한식",
         recipe: {
             ingredients: [
@@ -171,15 +187,15 @@ const foods = [
                 "물 2컵(500ml)",
                 "소금 ½작은술",
                 "식용유",
-
-                "초간장",
-                "간장 2큰술",
-                "물 1큰술",
-                "식초 1큰술",
-                "고춧가루 ½큰술",
-                "풋고추 1개",
-
             ],
+                sauceIngredients: [
+                    "초간장",
+                    "간장 2큰술",
+                    "물 1큰술",
+                    "식초 1큰술",
+                    "고춧가루 ½큰술",
+                    "풋고추 1개",
+                ],
             preparation: [
                 "감자는 껍질을 벗기고 강판(블렌더)에 곱게 간다",
                 "애호박은 씻어서 채 썬다",
@@ -195,10 +211,13 @@ const foods = [
     },
     {
         name: "감자조림",
-        image: "",
+        image: "./img/ㄱ/감자조림.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -211,10 +230,13 @@ const foods = [
     },
     {
         name: "감자채볶음",
-        image: "",
+        image: "./img/ㄱ/감자채볶음.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -233,10 +255,13 @@ const foods = [
     },
     {
         name: "곤드레나물밥",
-        image: "",
+        image: "./img/ㄱ/곤드레나물밥.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -257,10 +282,13 @@ const foods = [
     },
     {
         name: "곱창구이",
-        image: "",
+        image: "./img/ㄱ/곱창구이.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -284,10 +312,13 @@ const foods = [
     },
     {
         name: "곱창전골",
-        image: "",
+        image: "./img/ㄱ/곱창전골.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -300,10 +331,13 @@ const foods = [
     },
     {
         name: "골뱅이무침",
-        image: "",
+        image: "./img/ㄱ/골뱅이무침.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -316,10 +350,13 @@ const foods = [
     },
     {
         name: "고등어구이",
-        image: "",
+        image: "./img/ㄱ/고등어구이.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -332,10 +369,13 @@ const foods = [
     },
     {
         name: "고사리나물",
-        image: "",
+        image: "./img/ㄱ/고사리나물.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -348,10 +388,32 @@ const foods = [
     },
     {
         name: "고추장",
-        image: "",
+        image: "./img/ㄱ/고추장.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
+                "",
+            ],
+            preparation: [
+                "",
+            ],
+            cooking: [
+                "",
+            ]
+        }
+    },
+    {
+        name: "고추장찌개",
+        image: "./img/ㄱ/고추장찌개.png",
+        category: "한식",
+        recipe: {
+            ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -364,10 +426,13 @@ const foods = [
     },
     {
         name: "고추장아찌",
-        image: "",
+        image: "./img/ㄱ/고추장아찌.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -380,11 +445,14 @@ const foods = [
     },
     {
         name: "간장",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Soy_sauce_2.jpg/640px-Soy_sauce_2.jpg",
+        image: "./img/ㄱ/간장.jpg",
         category: "한식",
         recipe: {
             ingredients: [
                 "메주 1말(콩 8㎏, 보통 크기 3덩이), 굵은소금 6~7되(480~560g), 물 40컵(10L), 숯·마른 고추·대추 약간씩",
+            ],
+            sauceIngredients: [
+                "",
             ],
             preparation: [
                 "잘 띄운 메주를 솔로 깨끗이 씻어 햇볕에 말린다.",
@@ -400,10 +468,13 @@ const foods = [
     },
     {
         name: "간장게장",
-        image: "https://cdn.oasis.co.kr:48581/product/52477/thumb/thumb_52477680446b5-5a05-4450-b778-1ae2c979ee38.jpg",
+        image: "./img/ㄱ/간장게장.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -416,10 +487,13 @@ const foods = [
     },
     {
         name: "겉절이",
-        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/03/29/ac0be444d09a260d6fc06001eac0adb21.jpg",
+        image: "./img/ㄱ/겉절이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -432,10 +506,13 @@ const foods = [
     },
     {
         name: "계란말이",
-        image: "https://i.namu.wiki/i/GY1CyS2UkzjpGyPNPrJbX_eZps0Ps9Ly6M64KxQRWNqK9kZ5QL-v2TbOfY5gOHQi3QsWxpm3Ja-PW_YO9OvmpQ.webp",
+        image: "./img/ㄱ/계란말이.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -448,10 +525,13 @@ const foods = [
     },
     {
         name: "계란찜",
-        image: "https://i.namu.wiki/i/Ve_R4NNlzKMCcUDyUm96IQQwRMrg1RDRVVfak3F_ZPybsGgf6yjal8R0HGlt_T4VM_NGXL2h5it9vlCP8L_HUQ.webp",
+        image: "./img/ㄱ/계란찜.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -464,10 +544,13 @@ const foods = [
     },
     {
         name: "김밥",
-        image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gimbap_%28pixabay%29.jpg",
+        image: "./img/ㄱ/김밥.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -480,10 +563,13 @@ const foods = [
     },
     {
         name: "김부각",
-        image: "https://oasisprodproduct.edge.naverncp.com/56792/detail/0_876198e2-bb16-47dc-969e-532e84791cc1.jpg",
+        image: "./img/ㄱ/김부각.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -496,10 +582,13 @@ const foods = [
     },
     {
         name: "김구이",
-        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/03/14/cfdf8763c961603d5d33a3fada2c4df71.jpg",
+        image: "./img/ㄱ/김구이.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -512,10 +601,13 @@ const foods = [
     },
     {
         name: "깍두기",
-        image: "https://i.ytimg.com/vi/OPo_j3jDMeM/maxresdefault.jpg",
+        image: "./img/ㄱ/깍두기.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -528,10 +620,13 @@ const foods = [
     },
     {
         name: "깻잎장아찌",
-        image: "https://recipe1.ezmember.co.kr/cache/recipe/2017/04/13/f51cef0c04d2e44872bf41aef97eb2741.jpg",
+        image: "./img/ㄱ/깻잎장아찌.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -544,10 +639,13 @@ const foods = [
     },
     {
         name: "김치볶음밥",
-        image: "",
+        image: "./img/ㄱ/김치볶음밥.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -560,10 +658,13 @@ const foods = [
     },
     {
         name: "김치전",
-        image: "",
+        image: "./img/ㄱ/김치전.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -576,10 +677,13 @@ const foods = [
     },
     {
         name: "김칫국",
-        image: "",
+        image: "./img/ㄱ/김칫국.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -592,10 +696,13 @@ const foods = [
     },
     {
         name: "김치찌개",
-        image: "",
+        image: "./img/ㄱ/김치찌개.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -608,10 +715,13 @@ const foods = [
     },
     {
         name: "꽃게탕",
-        image: "",
+        image: "./img/ㄱ/꽃게탕.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -624,10 +734,13 @@ const foods = [
     },
     {
         name: "나박김치",
-        image: "",
+        image: "./img/ㄴ/나박김치.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -640,10 +753,13 @@ const foods = [
     },
     {
         name: "낙지덮밥",
-        image: "",
+        image: "./img/ㄴ/낙지덮밥.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -656,10 +772,13 @@ const foods = [
     },
     {
         name: "낙지볶음",
-        image: "",
+        image: "./img/ㄴ/낙지볶음.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -672,10 +791,13 @@ const foods = [
     },
     {
         name: "너비아니",
-        image: "",
+        image: "./img/ㄴ/너비아니.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -688,10 +810,13 @@ const foods = [
     },
     {
         name: "누룽지",
-        image: "",
+        image: "./img/ㄴ/누룽지.webp",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -704,10 +829,13 @@ const foods = [
     },
     {
         name: "녹두전",
-        image: "",
+        image: "./img/ㄴ/녹두전.jpg",
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -726,6 +854,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -740,6 +871,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -758,6 +892,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -772,6 +909,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -790,6 +930,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -804,6 +947,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -822,6 +968,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -836,6 +985,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -854,6 +1006,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -868,6 +1023,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -886,6 +1044,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -900,6 +1061,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -918,6 +1082,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -932,6 +1099,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -950,6 +1120,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -964,6 +1137,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -982,6 +1158,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -996,6 +1175,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1014,6 +1196,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1028,6 +1213,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1046,6 +1234,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1060,6 +1251,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1078,6 +1272,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1092,6 +1289,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1110,6 +1310,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1124,6 +1327,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1142,6 +1348,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1156,6 +1365,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1174,6 +1386,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1188,6 +1403,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1206,6 +1424,10 @@ const foods = [
             ingredients: [
                 "",
             ],
+
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1220,6 +1442,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1238,6 +1463,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1254,6 +1482,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],  
             preparation: [
                 "",
             ],
@@ -1268,6 +1499,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1286,6 +1520,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1300,6 +1537,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1318,6 +1558,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1332,6 +1575,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1350,6 +1596,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1364,6 +1613,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1382,6 +1634,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1396,6 +1651,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1414,6 +1672,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1428,6 +1689,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1446,6 +1710,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1460,6 +1727,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1478,6 +1748,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1492,6 +1765,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1510,6 +1786,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1524,6 +1803,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1542,6 +1824,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1556,6 +1841,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1574,6 +1862,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1588,6 +1879,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1606,6 +1900,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1620,6 +1917,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1638,6 +1938,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1652,6 +1955,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1670,6 +1976,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1684,6 +1993,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1702,6 +2014,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1716,6 +2031,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1734,6 +2052,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1748,6 +2069,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1766,6 +2090,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1780,6 +2107,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1798,6 +2128,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1812,6 +2145,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1830,6 +2166,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1844,6 +2183,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1862,6 +2204,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1876,6 +2221,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1894,6 +2242,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1908,6 +2259,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1926,6 +2280,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1940,6 +2297,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1958,6 +2318,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -1972,6 +2335,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -1990,6 +2356,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2004,6 +2373,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2022,6 +2394,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2036,6 +2411,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2054,6 +2432,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2068,6 +2449,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2086,6 +2470,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2100,6 +2487,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2118,6 +2508,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2132,6 +2525,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2150,6 +2546,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2164,6 +2563,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2182,6 +2584,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2196,6 +2601,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2214,6 +2622,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2228,6 +2639,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2246,6 +2660,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2260,6 +2677,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2278,6 +2698,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2292,6 +2715,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2310,6 +2736,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2324,6 +2753,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2342,6 +2774,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2356,6 +2791,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2374,6 +2812,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2388,6 +2829,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2406,6 +2850,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2420,6 +2867,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2438,6 +2888,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2452,6 +2905,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2470,6 +2926,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2484,6 +2943,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2502,6 +2964,9 @@ const foods = [
             ingredients: [
                 "",
             ],
+            sauceIngredients: [
+                "",
+            ],
             preparation: [
                 "",
             ],
@@ -2516,6 +2981,9 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
+                "",
+            ],
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -2534,1240 +3002,9 @@ const foods = [
             ingredients: [
                 "",
             ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    // 일식
-    {
-        name: "오니기리",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "돈부리",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "카마메시",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "스시",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "오차즈케",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "카테메싵",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "우동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "야끼우동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "소바",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "야끼소바",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "라멘",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "오코노미야끼",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "타코야끼",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "돈돈야끼",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "덴뿌라",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "샤브샤브",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "스키야끼",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "부타나베",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "모츠나베",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "사시미",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "타다끼",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "야키토리",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "치킨난반",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "가라아게",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "니쿠자가",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "도테야키",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "라후테",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "오히타시",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "낫또",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "우메보시",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "쿠사야",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "가츠동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "규동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "오야코동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "텐동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "카레동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "사케동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "아나고동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "키츠네동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "다케동",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "미소시루",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "다이후쿠",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "모찌",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    // 중식
-    {
-        name: "양장피",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "마파두부",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "팔진초면",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "청경채소고기볶음",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "연복풍",
-        image: "",
-        category: "중식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "중식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "중식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "회과육",
-        image: "",
-        category: "중식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "유산슬",
-        image: "",
-        category: "중식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
+            sauceIngredients: [
                 "",
             ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
-            preparation: [
-                "",
-            ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
-                "",
-            ],
             preparation: [
                 "",
             ],
@@ -3776,28 +3013,19 @@ const foods = [
             ]
         }
     },
+
+
+
+    // 자취생 요리
     {
-        name: "고추잡채",
+        name: "",
         image: "",
-        category: "일식",
+        category: "자취요리",
         recipe: {
             ingredients: [
-                "",
-            ],
-            preparation: [
                 "",
             ],
-            cooking: [
-                "",
-            ]
-        }
-    },
-    {
-        name: "고추잡채",
-        image: "",
-        category: "일식",
-        recipe: {
-            ingredients: [
+            sauceIngredients: [
                 "",
             ],
             preparation: [
@@ -3808,7 +3036,6 @@ const foods = [
             ]
         }
     },
-    
 
     
 ];

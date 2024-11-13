@@ -15,7 +15,7 @@ const backButton = document.getElementById('backButton');
 
 // 카테고리 버튼 생성 및 이벤트 처리
 function createCategoryButtons() {
-    const categories = ['한식', '양식', '중식', '일식'];
+    const categories = ['한식', '자취요리'];
     const categoryContainer = document.createElement('div');
     categoryContainer.className = 'category-container';
     
@@ -111,10 +111,17 @@ function displayFood(food) {
     const recipeHTML = `
         <div class="recipe-section">
             <h3>🥘 재료</h3>
-            <ul>
+            <ul class="ingredients-list">
                 ${food.recipe.ingredients ? 
                     food.recipe.ingredients.map(item => `<li>${item}</li>`).join('') :
                     '<li>등록된 재료가 없습니다.</li>'}
+            </ul>
+
+            <h3>🍶 양념장</h3>
+            <ul class="sauce-list">
+                ${food.recipe.sauceIngredients ?
+                    food.recipe.sauceIngredients.map(item => `<li>${item}</li>`).join('') :
+                    '<li>등록된 양념장이 없습니다.</li>'}
             </ul>
             
             <h3>🔪 준비하기</h3>
@@ -135,6 +142,7 @@ function displayFood(food) {
     
     recipe.innerHTML = recipeHTML;
 }
+
 
 backButton.addEventListener('click', () => {
     // 레시피 내용 초기화
