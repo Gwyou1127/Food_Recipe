@@ -668,9 +668,14 @@ const foods = [
         category: "한식",
         recipe: {
             ingredients: [
-                "",
+                "계란 4개",
+                "물 2컵(500ml)",
+                "소금 2작은술",
+                "잔새우 120g",
+                "실파 1대(10g)",
             ],
             sauceIngredients: [
+                "",
             ],
             preparation: [
                 "계란은 물 2컵과 소금 2작은술을 넣고 잘 저어 체에 거른 뒤 거품은 걷어낸다.",  
