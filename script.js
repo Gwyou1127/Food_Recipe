@@ -180,3 +180,39 @@ backButton.addEventListener('click', () => {
 
 // 초기 상태에서는 뒤로가기 버튼 숨기기
 backButton.style.display = 'none';
+
+
+function createDarkModeToggle() {
+    const darkModeToggle = document.createElement('button');
+    darkModeToggle.id = 'darkModeToggle';
+    darkModeToggle.innerHTML = '🌓';
+    darkModeToggle.style.position = 'absolute';
+    darkModeToggle.style.top = '10px';
+    darkModeToggle.style.right = '10px';
+    darkModeToggle.style.backgroundColor = 'transparent';
+    darkModeToggle.style.border = 'none';
+    darkModeToggle.style.fontSize = '24px';
+    
+    darkModeToggle.addEventListener('click', toggleDarkMode);
+    
+    document.querySelector('.container').appendChild(darkModeToggle);
+}
+
+// 다크 모드 토글 함수
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    
+    // 사용자 선택 모드 로컬 스토리지에 저장
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
+}
+
+// 페이지 로드 시 초기 모드 설정
+document.addEventListener('DOMContentLoaded', () => {
+    createDarkModeToggle();
+    
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode === 'true') {
+        document.body.classList.add('dark-mode');
+    }
+});
