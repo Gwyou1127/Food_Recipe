@@ -12,6 +12,10 @@ const modalSearchBtn = document.getElementById("modalSearchBtn");
 const searchInput = document.getElementById('searchInput');
 const errorMessage = document.getElementById('errorMessage');
 const backButton = document.getElementById('backButton');
+const slot1 = document.getElementById("slot1");
+const slot2 = document.getElementById("slot2");
+const slot3 = document.getElementById("slot3");
+const spinButton = document.getElementById("spinButton");
 
 // 카테고리 버튼 생성 및 이벤트 처리
 function createCategoryButtons() {
@@ -216,3 +220,60 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('dark-mode');
     }
 });
+
+
+function spinSlots() {
+    const slotElements = [slot1, slot2, slot3];
+    const foodItems = foods.map(food => ({ name: food.name, image: food.image }));
+    const totalItems = foodItems.length;
+
+    slotElements.forEach(slot => {
+        // 슬롯 안에 이미지를 유지하고 소스만 변경
+        if (!slot.querySelector("img")) {
+            const img = document.createElement("img");
+            img.className = "slot-image";
+            slot.appendChild(img);
+        }
+    });
+
+    let spins = 0;
+    const maxSpins = 15; // 회전 횟수
+
+    const spinInterval = setInterval(() => {
+        slotElements.forEach(slot => {
+            const img = slot.querySelector("img");
+            const randomIndex = Math.floor(Math.random() * totalItems);
+            const food = foodItems[randomIndex];
+            img.src = food.image;
+            img.alt = food.name;
+            slot.dataset.foodName = food.name; // 음식 이름 저장
+        });
+
+        spins++;
+        if (spins >= maxSpins) {
+            clearInterval(spinInterval); // 회전 종료
+            slotElements.forEach(slot => slot.classList.add('selectable')); // 선택 가능 표시
+        }
+    }, 150); // 회전 간격
+}
+
+function enableSlotSelection() {
+    const slotElements = [slot1, slot2, slot3];
+    slotElements.forEach(slot => {
+        slot.addEventListener("click", () => {
+            if (slot.classList.contains("selectable")) {
+                const selectedFoodName = slot.dataset.foodName; // 데이터 속성에서 음식 이름 가져옴
+                const selectedFood = foods.find(food => food.name === selectedFoodName);
+                if (selectedFood) {
+                    displayFood(selectedFood); // 레시피 표시
+                    closeModal(slotModal); // 모달 닫기
+                }
+            }
+        });
+    });
+}
+
+
+
+spinButton.addEventListener('click', spinSlots);
+enableSlotSelection();
