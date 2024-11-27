@@ -182,91 +182,53 @@ function showSearchSuggestions() {
     }
 }
 
-function spinSlots() {
-    const slotElements = [slot1, slot2, slot3];
-    const foodItems = foods.map(food => ({ name: food.name, image: food.image }));
-    const totalItems = foodItems.length;
+// function spinSlots() {
+//     const slotElements = [slot1, slot2, slot3];
+//     const foodItems = foods.map(food => ({ name: food.name, image: food.image }));
+//     const totalItems = foodItems.length;
 
-    slotElements.forEach(slot => {
-        // 슬롯 안에 이미지를 유지하고 소스만 변경
-        if (!slot.querySelector("img")) {
-            const img = document.createElement("img");
-            img.className = "slot-image";
-            slot.appendChild(img);
-        }
-    });
+//     slotElements.forEach(slot => {
+//         // 슬롯 안에 이미지를 유지하고 소스만 변경
+//         if (!slot.querySelector("img")) {
+//             const img = document.createElement("img");
+//             img.className = "slot-image";
+//             slot.appendChild(img);
+//         }
+//     });
 
-    let spins = 0;
-    const maxSpins = 15; // 회전 횟수
+//     let spins = 0;
+//     const maxSpins = 15; // 회전 횟수
 
-    const spinInterval = setInterval(() => {
-        slotElements.forEach(slot => {
-            const img = slot.querySelector("img");
-            const randomIndex = Math.floor(Math.random() * totalItems);
-            const food = foodItems[randomIndex];
-            img.src = food.image;
-            img.alt = food.name;
-            slot.dataset.foodName = food.name; // 음식 이름 저장
-        });
+//     const spinInterval = setInterval(() => {
+//         slotElements.forEach(slot => {
+//             const img = slot.querySelector("img");
+//             const randomIndex = Math.floor(Math.random() * totalItems);
+//             const food = foodItems[randomIndex];
+//             img.src = food.image;
+//             img.alt = food.name;
+//             slot.dataset.foodName = food.name; // 음식 이름 저장
+//         });
 
-        spins++;
-        if (spins >= maxSpins) {
-            clearInterval(spinInterval); // 회전 종료
-            slotElements.forEach(slot => slot.classList.add('selectable')); // 선택 가능 표시
-        }
-    }, 100); // 회전 간격
-}
+//         spins++;
+//         if (spins >= maxSpins) {
+//             clearInterval(spinInterval); // 회전 종료
+//             slotElements.forEach(slot => slot.classList.add('selectable')); // 선택 가능 표시
+//         }
+//     }, 100); // 회전 간격
+// }
 
-function enableSlotSelection() {
-    const slotElements = [slot1, slot2, slot3];
-    slotElements.forEach(slot => {
-        slot.addEventListener("click", () => {
-            if (slot.classList.contains("selectable")) {
-                const selectedFoodName = slot.dataset.foodName; // 데이터 속성에서 음식 이름 가져옴
-                const selectedFood = foods.find(food => food.name === selectedFoodName);
-                if (selectedFood) {
-                    displayFood(selectedFood); // 레시피 표시
-                    closeModal(slotModal); // 모달 닫기
-                }
-            }
-        });
-    });
-}
-
-function createDarkModeToggle() {
-    const darkModeToggle = document.createElement('button');
-    darkModeToggle.id = 'darkModeToggle';
-    darkModeToggle.innerHTML = '🌓';
-    darkModeToggle.style.position = 'absolute';
-    darkModeToggle.style.top = '10px';
-    darkModeToggle.style.right = '10px';
-    darkModeToggle.style.backgroundColor = 'transparent';
-    darkModeToggle.style.border = 'none';
-    darkModeToggle.style.fontSize = '24px';
-    
-    darkModeToggle.addEventListener('click', toggleDarkMode);
-    
-    document.querySelector('.container').appendChild(darkModeToggle);
-}
-
-// 다크 모드 토글 함수
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    
-    // 사용자 선택 모드 로컬 스토리지에 저장
-    const isDarkMode = document.body.classList.contains('dark-mode');
-    localStorage.setItem('darkMode', isDarkMode);
-}
-
-// 페이지 로드 시 초기 모드 설정
-document.addEventListener('DOMContentLoaded', () => {
-    createDarkModeToggle();
-    
-    const savedMode = localStorage.getItem('darkMode');
-    if (savedMode === 'true') {
-        document.body.classList.add('dark-mode');
-    }
-});
-
-spinButton.addEventListener("click", spinSlots);
-enableSlotSelection();
+// function enableSlotSelection() {
+//     const slotElements = [slot1, slot2, slot3];
+//     slotElements.forEach(slot => {
+//         slot.addEventListener("click", () => {
+//             if (slot.classList.contains("selectable")) {
+//                 const selectedFoodName = slot.dataset.foodName; // 데이터 속성에서 음식 이름 가져옴
+//                 const selectedFood = foods.find(food => food.name === selectedFoodName);
+//                 if (selectedFood) {
+//                     displayFood(selectedFood); // 레시피 표시
+//                     closeModal(slotModal); // 모달 닫기
+//                 }
+//             }
+//         });
+//     });
+// }
