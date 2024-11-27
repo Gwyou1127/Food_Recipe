@@ -12,10 +12,6 @@ const modalSearchBtn = document.getElementById("modalSearchBtn");
 const searchInput = document.getElementById('searchInput');
 const errorMessage = document.getElementById('errorMessage');
 const backButton = document.getElementById('backButton');
-const slot1 = document.getElementById("slot1");
-const slot2 = document.getElementById("slot2");
-const slot3 = document.getElementById("slot3");
-const spinButton = document.getElementById("spinButton");
 
 // 카테고리 버튼 생성 및 이벤트 처리
 function createCategoryButtons() {
@@ -105,33 +101,6 @@ function searchFood() {
     }
 }
 
-searchInput.addEventListener('input', showSearchSuggestions);
-
-function showSearchSuggestions() {
-    const searchTerm = searchInput.value.trim().toLowerCase();
-    const suggestions = foods.filter(food => food.name.toLowerCase().includes(searchTerm));
-
-    foodImages.innerHTML = '';  // 기존 결과 지우기
-    suggestions.forEach(food => {
-        const img = document.createElement('img');
-        img.src = food.image;
-        img.alt = food.name;
-        
-        img.addEventListener('click', () => {
-            displayFood(food);
-            closeModal(recipeModal);
-        });
-
-        foodImages.appendChild(img);
-    });
-
-    if (suggestions.length === 0) {
-        errorMessage.textContent = '음식을 찾을 수 없습니다.';
-    } else {
-        errorMessage.textContent = '';
-    }
-}
-
 modalSearchBtn.addEventListener('click', searchFood);
 
 function displayFood(food) {
@@ -186,41 +155,32 @@ backButton.addEventListener('click', () => {
 backButton.style.display = 'none';
 
 
-function createDarkModeToggle() {
-    const darkModeToggle = document.createElement('button');
-    darkModeToggle.id = 'darkModeToggle';
-    darkModeToggle.innerHTML = '🌓';
-    darkModeToggle.style.position = 'absolute';
-    darkModeToggle.style.top = '10px';
-    darkModeToggle.style.right = '10px';
-    darkModeToggle.style.backgroundColor = 'transparent';
-    darkModeToggle.style.border = 'none';
-    darkModeToggle.style.fontSize = '24px';
-    
-    darkModeToggle.addEventListener('click', toggleDarkMode);
-    
-    document.querySelector('.container').appendChild(darkModeToggle);
-}
+searchInput.addEventListener('input', showSearchSuggestions);
 
-// 다크 모드 토글 함수
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    
-    // 사용자 선택 모드 로컬 스토리지에 저장
-    const isDarkMode = document.body.classList.contains('dark-mode');
-    localStorage.setItem('darkMode', isDarkMode);
-}
+function showSearchSuggestions() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    const suggestions = foods.filter(food => food.name.toLowerCase().includes(searchTerm));
 
-// 페이지 로드 시 초기 모드 설정
-document.addEventListener('DOMContentLoaded', () => {
-    createDarkModeToggle();
-    
-    const savedMode = localStorage.getItem('darkMode');
-    if (savedMode === 'true') {
-        document.body.classList.add('dark-mode');
+    foodImages.innerHTML = '';  // 기존 결과 지우기
+    suggestions.forEach(food => {
+        const img = document.createElement('img');
+        img.src = food.image;
+        img.alt = food.name;
+        
+        img.addEventListener('click', () => {
+            displayFood(food);
+            closeModal(recipeModal);
+        });
+
+        foodImages.appendChild(img);
+    });
+
+    if (suggestions.length === 0) {
+        errorMessage.textContent = '음식을 찾을 수 없습니다.';
+    } else {
+        errorMessage.textContent = '';
     }
-});
-
+}
 
 function spinSlots() {
     const slotElements = [slot1, slot2, slot3];
@@ -254,7 +214,7 @@ function spinSlots() {
             clearInterval(spinInterval); // 회전 종료
             slotElements.forEach(slot => slot.classList.add('selectable')); // 선택 가능 표시
         }
-    }, 150); // 회전 간격
+    }, 100); // 회전 간격
 }
 
 function enableSlotSelection() {
@@ -273,7 +233,17 @@ function enableSlotSelection() {
     });
 }
 
+function resetSlots() {
+    const slotElements = [slot1, slot2, slot3];
+    slotElements.forEach(slot => {
+        const img = slot.querySelector("img");
+        if (img) {
+            img.src = "placeholder.jpg"; // 기본 이미지 설정
+            img.alt = "placeholder";
+        }
+        slot.classList.remove("selectable"); // 선택 가능 상태 초기화
+    });
+}
 
-
-spinButton.addEventListener('click', spinSlots);
+spinButton.addEventListener("click", spinSlots);
 enableSlotSelection();

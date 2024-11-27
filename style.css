@@ -31,7 +31,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
 h1 {
     text-align: center;
     color: #333;
@@ -128,60 +127,25 @@ button:hover {
 
 #slotMachine {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .slot {
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border: 3px solid #333;
-    border-radius: 10px;
-    background-color: #000;
-    position: relative;
-}
-
-.slot .slot-track {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    animation: scroll infinite linear; /* 기본 애니메이션 */
-}
-
-.slot img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    filter: brightness(0.9); /* 약간 어둡게 */
-    transition: transform 0.3s ease;
-}
-
-.slot img:hover {
-    transform: scale(1.1); /* 마우스 호버 시 확대 */
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #spinButton {
     display: block;
     margin: 0 auto;
-}
-
-@keyframes slotSpin {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0%);
-    }
-}
-
-.slot.stopped .slot-track {
-    animation: none; /* 멈췄을 때 애니메이션 제거 */
-    transform: translateY(0); /* 현재 위치 유지 */
 }
 
 .category-container {
@@ -201,10 +165,6 @@ button:hover {
     transition: all 0.3s ease;
 }
 
-
-
-
-
 .category-btn:hover {
     background-color: #ff6666;
     color: white;
@@ -223,7 +183,6 @@ button:hover {
     margin-top: 20px;
 }
 
-/* 이미지 호버 효과 수정 */
 #foodImages img {
     width: 100px;
     height: 100px;
@@ -242,7 +201,6 @@ button:hover {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
 }
 
 .recipe-section h3 {
@@ -297,21 +255,20 @@ button:hover {
     background-color: #444;
 }
 
-/* CSS 파일에 추가 */
 .ingredients-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* 한 줄에 3개의 열로 설정 */
-    gap: 10px;  /* 요소 간 간격 */
-    list-style-type: none;  /* 점 제거 */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .sauce-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* 한 줄에 3개의 열로 설정 */
-    gap: 10px;  /* 요소 간 간격 */
-    list-style-type: none;  /* 점 제거 */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
@@ -324,96 +281,12 @@ button:hover {
     margin-bottom: -3px;
 }
 
-#recipe {
-    max-height: 400px;  /* Set a maximum height */
-    overflow-y: auto;   /* Enable vertical scrolling */
-    padding-right: 10px; /* Add some padding to prevent scrollbar overlap */
-}
-
-/* Optional: Style the scrollbar to make it more visually appealing */
-#recipe::-webkit-scrollbar {
-    width: 8px;
-}
-
-#recipe::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-#recipe::-webkit-scrollbar-thumb {
-    background: #ff6666;
-    border-radius: 10px;
-}
-
-#recipe::-webkit-scrollbar-thumb:hover {
-    background: #cc3333;
-}
-
-
-
-body.dark-mode {
-    background-color: #1E1E1E;
-    color: #E0E0E0;
-}
-
-body.dark-mode h1{
-    color: #E0E0E0;
-}
-
-body.dark-mode .container {
-    background-color: #2C2C2C;
-    box-shadow: 0 0 10px rgba(255,255,255,0.1);
-}
-
-body.dark-mode button {
-    background-color: #FF6B6B;
-    color: white;
-}
-
-body.dark-mode .modal-content {
-    background-color: #3A3A3A;
-    color: #E0E0E0;
-    border-color: #4A4A4A;
-}
-
-body.dark-mode #result {
-    background-color: #3C3C3C;
-}
-
-body.dark-mode .category-btn {
-    border-color: #FF6B6B;
-    background-color: transparent;
-    color: #FF6B6B;
-}
-
-body.dark-mode .category-btn.active {
-    background-color: #FF6B6B;
-    color: white;
-}
-
-body.dark-mode .recipe-section {
-    background-color: #3C3C3C;
-    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
-}
-
-body.dark-mode .recipe-section h3 {
-    color: #FF6B6B;
-}
-
-body.dark-mode .recipe-section li::before {
-    color: #FF6B6B;
-}
-
-.slot {
-    color: #2C2C2C;
-}
-
 .slot-image {
     width: 100px;
     height: 100px;
     border-radius: 10px;
     object-fit: cover;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .slot-image.fade-out {
@@ -424,60 +297,4 @@ body.dark-mode .recipe-section li::before {
 .slot-image.fade-in {
     opacity: 1;
     transform: scale(1);
-}
-
-.slot-image:hover {
-    transform: scale(1.1);
-}
-
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 95%;
-        max-width: 500px;
-        padding: 10px;
-        transform: translate(-50%, -50%);
-    }
-
-    .button-container button {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
-
-    .modal-content {
-        width: 90%;
-        margin: 10% auto;
-        padding: 15px;
-    }
-
-    .ingredients-list,
-    .sauce-list {
-        grid-template-columns: repeat(2, 1fr); /* 모바일에서는 2열로 변경 */
-    }
-
-    #recipe {
-        max-height: 300px; /* 모바일에서 높이 조정 */
-    }
-
-    #foodImages img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .category-btn {
-        padding: 6px 12px;
-        font-size: 14px;
-    }
-}
-/* 태블릿 기기를 위한 반응형 디자인 */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        width: 80%;
-        max-width: 700px;
-    }
-
-    .ingredients-list,
-    .sauce-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
